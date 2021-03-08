@@ -28,8 +28,24 @@ body {
     float: left;
     padding: 60px;
     background-color:#fff; 
+    position: relative;
 }
 .close {
+    display: inline-block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 57px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: grey;
+}
+.close:hover {
+    color:black;
+    cursor: pointer;
 }
 
 form {
