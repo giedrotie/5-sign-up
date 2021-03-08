@@ -1,4 +1,5 @@
 
+
 body,
 body * {
   margin: 0;
@@ -66,14 +67,14 @@ form > .form-row > input {
 form > .form-row > button {
     display: inline-block;
     float: left;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    font-size: 16px;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 20px;
     border: none;
-    border-radius: 15px;
+    border-radius: 23px;
     background-color:#0164db;
     color: #fff;
     text-transform: capitalize;
@@ -84,18 +85,18 @@ form > .form-row > span {
     float: left;
     margin-left: 15px;
     margin-right: 15px;
-    padding: 5px;
+    padding: 10px;
     line-height: 20px;
-    font-size: 16px;
+    font-size: 20px;
 
 
 }
 form > .form-row > a {
     display: inline-block;
     float: left;
-    padding: 5px;
+    padding: 10px;
     line-height: 20px;
-    font-size: 16px;
+    font-size: 20px;
     color: #0164db;
     text-decoration: none;
     font-weight: 600;
