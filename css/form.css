@@ -1,0 +1,70 @@
+form {
+    display: inline-block;
+    width: 100%;
+}
+
+form > .form-row {
+    display:inline-block;
+    width:100%;
+    margin-bottom: 40px;
+}
+
+form > .form-row:last-of-type {
+    margin-bottom: 0px;
+}
+
+form > .form-row > label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+form > .form-row > input {
+    display: inline-block;
+     width: 100%;
+     font-size: 20px;
+     line-height: 30px;
+     border: none;
+     border-bottom: 2px solid #ccc;
+}
+
+form > .form-row > button {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    border: none;
+    border-radius: 23px;
+    background-color:#0164db;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+form > .form-row > span {
+    display: inline-block;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+form > .form-row > a {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #0164db;
+    text-decoration: none;
+    font-weight: 600;
+}
